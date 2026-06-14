@@ -1,0 +1,29 @@
+﻿id,category,name,value,unit,note
+V1,Volume & Scale,Total R&I collaboration links,"20,302",count,
+V2,Volume & Scale,Unique UK businesses in R&I collaboration,"12,297",count,
+V3,Volume & Scale,Unique universities in R&I collaboration,348,count,
+V4,Volume & Scale,Unique R&I projects with business partner,"17,656",count,
+V5,Volume & Scale,Total associated grant value,"£31,371,321,936",£ GBP,Sum of grant values for all R&I collaboration projects
+V6,Volume & Scale,Mean grant value per collaboration,"£1,545,233",£ GBP,
+I1,Intensity & Productivity,Avg R&I collaborations per university,58.3,links/uni,
+I2,Intensity & Productivity,Avg R&I collaborations per business,1.7,links/biz,
+I3,Intensity & Productivity,Businesses partnering 2+ universities (%),5.5%,%,677 businesses engaged with more than one university
+I4,Intensity & Productivity,"Repeat biz–uni pairs (same pair, 2+ projects)","3,150",pairs,"Out of 13,907 unique biz–uni pairs"
+I5a,Intensity & Productivity,KTP projects (count),"2,329",count,grant_category = Knowledge Transfer Partnership
+I5b,Intensity & Productivity,KTP share of all R&I collaboration links,11.5%,%,"2,329 KTP links out of 20,302 total R&I links"
+I6a,Intensity & Productivity,Collaborative R&D projects (count),"13,171",count,"Collaborative R&D, Feasibility Studies, Grant for R&D, SBRI — excl. KTPs"
+I6b,Intensity & Productivity,Collaborative R&D share of Innovate UK portfolio,85.0%,%,"13,171 CRD links out of 15,500 total Innovate UK links"
+I6c,Intensity & Productivity,Collaborative R&D share of all R&I links,64.9%,%,Use alongside I5b to compare KTP vs CRD as mechanisms — same denominator
+I7,Intensity & Productivity,Other Innovate UK links,0  (0.0% of IUK portfolio),count / %,Innovate UK-funded links not classified as KTP or Collaborative R&D
+D4,Innovation Depth,IP / licensing collaboration links,"2,483  (12.2%)",count / %,
+D5,Innovation Depth,Spinout / commercialisation links,8,count,
+D6,Innovation Depth,Associated publications (total across projects),"495,888",count,
+D7,Innovation Depth,Further funding records leveraged,"61,314",count,Projects reporting subsequent funding awards
+C4,Diversity & Concentration,University regions represented (ITL1),13,count,Legacy ITL1 regions — use C4b/c/d for DSIT cluster geography
+C5,Diversity & Concentration,Funder concentration — HHI (0–1 scale),0.5925,index,
+C6,Diversity & Concentration,Distinct UKRI funders,20,count,
+C4b,Diversity & Concentration,R&I links inside a DSIT cluster — England HEIs,"4,500  (99.8%)",count / %,"Excl. devolved nations, overseas collaborators, CRD placeholders"
+C4c,Diversity & Concentration,English HEIs inside ≥1 DSIT cluster,199 of 202 (98.5%),count / %,3 English HEI(s) outside clusters · 50 devolved (outside by design) · 152 overseas (excluded from UK indicator)
+C4d,Diversity & Concentration,Distinct DSIT innovation sectors with R&I collaboration,80,count,"Unique DSIT sector labels (e.g. AdTech, Life Sciences, Net Zero…)"
+C4e,Diversity & Concentration,Devolved nation HEIs in R&I collaboration,50,count,"Scotland, Wales, NI — outside DSIT map by design; tracked separately"
+C4f,Diversity & Concentration,HEIs with unresolvable postcode (excluded from cluster test),145,count,GtR postcode blank/Unknown — cannot be geocoded or is overseas/devolved
